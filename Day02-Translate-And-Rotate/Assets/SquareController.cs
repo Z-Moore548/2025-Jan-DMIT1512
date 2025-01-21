@@ -9,6 +9,9 @@ public class SquareController : MonoBehaviour
 
     public float rotationSpeedZ, rotationDirectionZ;
 
+    public float xGrow = 1;
+    public float yGrow = 1;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,13 +40,31 @@ public class SquareController : MonoBehaviour
         float bottom = bottomLeft.y;
         float top = topRight.y;
 
-        if (transform.position.x >= right - 0.5 || transform.position.x <= left + 0.5)
+        //find width and height of square
+        float width = GetComponent<Renderer>().bounds.size.x;
+        float height = GetComponent<Renderer>().bounds.size.y;
+        
+        if (transform.position.x + (width / 2) >= right || transform.position.x - (width / 2) <= left)
         {
             directionX *= -1;
         }
-        if (transform.position.y >= top - 0.5 || transform.position.y <= bottom + 0.5)
+        if (transform.position.y + (height / 2) >= top || transform.position.y - (height / 2) <= bottom)
         {
             directionY *= -1;
+        }
+
+        //Growing like a balloon
+        
+        Vector3 scale = new Vector3(xGrow, yGrow, 0) * Time.deltaTime;
+        this.gameObject.transform.localScale += scale;
+
+        if (transform.localScale.x >= 5 || transform.localScale.x <= 1)
+        {
+            xGrow *= -1;
+        }
+        if (transform.localScale.y >= 5 || transform.localScale.y <= 1)
+        {
+            yGrow *= -1;
         }
     }
 }
