@@ -21,6 +21,7 @@ public class Projectile : MonoBehaviour
             Instantiate(splosionPrefab, collider2D.gameObject.transform.position, Quaternion.Euler(0,0,0)); //note Euler angles are 0 to 360
 
             Destroy(collider2D.gameObject);
+            Destroy(this.gameObject);
         }
 
     }
