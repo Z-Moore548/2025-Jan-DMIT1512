@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Lesson10_Saving_Game_State/Scene1.unity
+    guid: f691af69df9f4c54898b7bc04ca50464
+  - enabled: 1
+    path: Assets/Lesson10_Saving_Game_State/Scene2.unity
+    guid: 577a754093766ed4eb94d9bcb3e8f3a3
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02

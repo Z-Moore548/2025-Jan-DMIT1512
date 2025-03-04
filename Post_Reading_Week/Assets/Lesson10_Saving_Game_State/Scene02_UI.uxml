@@ -1,0 +1,5 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="Score" style="background-color: rgb(255, 0, 0); position: absolute; top: 87px; left: 22px; width: 101px; height: 52px; font-size: 30px;" />
+    <engine:Label name="ScoreLabel" style="background-color: rgb(255, 116, 0); position: absolute; top: 87px; left: 138px; width: 101px; height: 52px; font-size: 30px;" />
+    <engine:Button text="To Scene 1" name="ChangeToScene01Button" style="position: absolute; top: 284px; left: 33px; width: 151px; height: 88px; background-color: rgb(243, 17, 210);" />
+</engine:UXML>

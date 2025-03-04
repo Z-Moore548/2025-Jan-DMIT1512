@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="Score:" style="position: absolute; top: 29px; left: 27px; width: 120px; font-size: 30px; background-color: rgba(6, 211, 255, 0.93);" />
+    <engine:Label name="ScoreLabel" style="position: absolute; top: 29px; left: 155px; width: 102px; font-size: 30px; background-color: rgba(6, 255, 158, 0.93); height: 44px;" />
+    <engine:Button text="Increase Score" name="IncreaseScoreButton" enable-rich-text="true" style="position: absolute; top: 85px; left: 24px; width: 131px; height: 118px; background-color: rgb(212, 167, 45);" />
+    <engine:Button text="To Scene 2" name="ChangeToScene02Button" style="position: absolute; top: 234px; left: 37px; width: 125px; height: 90px; background-color: rgba(241, 6, 187, 0.84);" />
+</engine:UXML>
