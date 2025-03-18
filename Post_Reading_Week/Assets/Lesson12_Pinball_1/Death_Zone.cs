@@ -22,8 +22,8 @@ public class Death_Zone : MonoBehaviour
         yield return new WaitForSeconds(1); //go away then come back in one second
         GameObject newBall = Instantiate(ballPrefab);
         newBall.transform.position = ballSpawnPoint.position;
-        yield return new WaitForSeconds(1); //go away then come back in one second
-        GameObject newBall2 = Instantiate(ballPrefab);
-        newBall2.transform.position = ballSpawnPoint.position;
+        // yield return new WaitForSeconds(1); //make a second one after another second
+        // GameObject newBall2 = Instantiate(ballPrefab);
+        // newBall2.transform.position = ballSpawnPoint.position;
     }
 }
