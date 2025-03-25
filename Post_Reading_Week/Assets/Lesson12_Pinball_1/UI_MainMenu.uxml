@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="Welcome!" name="TitelLabel" style="position: absolute; width: 569px; top: 5px; left: 11px; height: 136px; font-size: 110px;" />
+    <engine:Button text="Save" name="SaveButton" style="position: absolute; top: 363px; left: 15px; width: 364px; height: 165px; font-size: 110px;" />
+    <engine:Label text="Highest Score Ever:" style="position: absolute; width: 560px; top: 545px; left: 25px; height: 128px; font-size: 50px;" />
+    <engine:Label text="Current Score:" style="position: absolute; width: 358px; top: 838px; left: 6px; height: 126px; font-size: 50px;" />
+    <engine:Button text="Load" name="LoadButton" style="position: absolute; top: 140px; left: 9px; width: 356px; height: 189px; font-size: 110px;" />
+    <engine:Button text="Play!" name="LoadLevel01Button" selectable="true" style="position: absolute; top: 691px; left: 15px; width: 426px; font-size: 50px; height: 144px;" />
+    <engine:Label name="HighScoreLabel" style="position: absolute; top: 567px; left: 510px; font-size: 50px; width: 167px; height: 92px;" />
+    <engine:Label name="CurrentScoreLabel" style="position: absolute; top: 866px; left: 352px; font-size: 50px; width: 255px; height: 92px;" />
+</engine:UXML>

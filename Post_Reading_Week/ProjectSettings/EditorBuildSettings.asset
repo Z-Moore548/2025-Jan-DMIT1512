@@ -5,21 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson10_Saving_Game_State/Scene1.unity
     guid: f691af69df9f4c54898b7bc04ca50464
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson10_Saving_Game_State/Scene2.unity
     guid: 577a754093766ed4eb94d9bcb3e8f3a3
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson09-Ui/Scene01.unity
     guid: 2a9457801e0c602449fd4822591347b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson09-Ui/Scene02.unity
     guid: 78a6dff503a1e0e429f4e8b3f92b36b7
+  - enabled: 1
+    path: Assets/Lesson12_Pinball_1/StartScene.unity
+    guid: 04cf5800493bc3a4fb2f793d92b69382
+  - enabled: 1
+    path: Assets/Lesson12_Pinball_1/PinBall.unity
+    guid: d17c870c6a82ea943a74f5d3d1943ed4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

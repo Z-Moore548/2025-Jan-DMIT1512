@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Flipper : MonoBehaviour
 {
+    private GameStatePinball _gameState;
     private HingeJoint2D joint2D;
     private InputAction _flipRight, _flipLeft;
     public enum FlipperType 
@@ -10,6 +11,10 @@ public class Flipper : MonoBehaviour
         Right, Left
     }
     public FlipperType _type;
+    void Awake()
+    {
+        _gameState = GameObject.FindGameObjectWithTag("GameState").GetComponent<GameStatePinball>();
+    }
     void Start()
     {
         joint2D = GetComponent<HingeJoint2D>();
@@ -29,5 +34,10 @@ public class Flipper : MonoBehaviour
                 break;
         }
         
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("hello");
+        _gameState.CurrentScore++;
     }
 }
