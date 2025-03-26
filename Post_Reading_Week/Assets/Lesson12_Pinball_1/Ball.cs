@@ -17,6 +17,6 @@ public class Ball : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         //suggestion: Change a UI Label On the Scene to Game Over then Wait 5 Seconds with a co routine then run below code.
-        SceneManager.LoadScene("StartScene");
+        //SceneManager.LoadScene("StartScene");
     }
 }

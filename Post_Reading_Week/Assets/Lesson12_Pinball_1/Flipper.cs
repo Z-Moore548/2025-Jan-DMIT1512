@@ -13,7 +13,7 @@ public class Flipper : MonoBehaviour
     public FlipperType _type;
     void Awake()
     {
-        _gameState = GameObject.FindGameObjectWithTag("GameState").GetComponent<GameStatePinball>();
+        //_gameState = GameObject.FindGameObjectWithTag("GameState").GetComponent<GameStatePinball>();
     }
     void Start()
     {
@@ -38,6 +38,6 @@ public class Flipper : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("hello");
-        _gameState.CurrentScore++;
+        //_gameState.CurrentScore++;
     }
 }
