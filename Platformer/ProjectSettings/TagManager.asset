@@ -8,6 +8,7 @@ TagManager:
   - ExplosionFX
   - Bullet
   - HealthBar
+  - FalgPole
   layers:
   - Default
   - TransparentFX
